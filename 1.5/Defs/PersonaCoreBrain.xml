@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>AIPersonaCoreImplant</defName>
+    <label>AI persona core implant</label>
+    <labelNoun>an AI persona core implant</labelNoun>
+    <description>An AI core as a replacement for a brain. Superior to a biological brain.</description>
+    <descriptionHyperlinks><ThingDef>AIPersonaCore</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>AIPersonaCore</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.5</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>InstallPersonaCore</defName>
+    <label>install persona core</label>
+    <description>Install Persona Core.</description>
+    <descriptionHyperlinks>
+      <ThingDef>AIPersonaCore</ThingDef>
+      <HediffDef>AIPersonaCoreImplant</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing Persona Core.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AIPersonaCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AIPersonaCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>AIPersonaCoreImplant</addsHediff>
+  </RecipeDef>
+</Defs>

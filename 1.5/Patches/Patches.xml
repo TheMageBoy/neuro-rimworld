@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- Insert BodyPartsBionic into the existing thingCategories list for AIPersonaCore -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="AIPersonaCore"]/thingCategories</xpath>
+    <value>
+      <li>BodyPartsBionic</li>
+    </value>
+  </Operation>
+</Patch>

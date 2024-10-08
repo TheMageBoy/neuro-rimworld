@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>neuroverse-neuro</defName>
+    <label>Neuro</label>
+    <styleGender>Female</styleGender>
+    <texPath>Hairs/Neurosama/Neuro</texPath>
+    <category>Royal</category>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>Royalty</li>
+      <li>Urban</li>
+      <li>HairLong</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>neuroverse-evil</defName>
+    <label>Evil Neuro</label>
+    <styleGender>Female</styleGender>
+    <texPath>Hairs/EvilNeuro/Evil</texPath>
+    <category>Royal</category>
+    <overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef>
+    <styleTags>
+      <li>Royalty</li>
+      <li>Urban</li>
+      <li>HairLong</li>
+    </styleTags>
+  </HairDef>
+</Defs>

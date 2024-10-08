@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>mageboy.neurosamamod</packageId>
+	<name>Neurosama Mod</name>
+	<author>Mage Boy</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+
+	<modDependencies>
+	</modDependencies>
+
+	<incompatibleWith>
+	</incompatibleWith>
+
+	<description>Neurosama-themed things. Integration using controllable events with websockets.</description>
+</ModMetaData>
